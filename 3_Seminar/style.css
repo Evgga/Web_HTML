@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    padding-top: 40px;
+}
+
+.top-content {
+    margin-top: 84px;
+    margin-bottom: 162px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.top-button {
+    margin-top: 37px;
+}
+
+.blok-logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
