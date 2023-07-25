@@ -1,0 +1,129 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #020A18;
+            padding-left: calc(50% - 1170px / 2);
+            padding-right: calc(50% - 1170px / 2);
+            background: #FFF;
+        }
+        
+        .top {
+            background: #FFF;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 346px;
+            border-radius: 10px;
+        }
+        
+        .logos__header1 {
+            flex-shrink: 0;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        .nav__link {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding-top: 39px;
+            padding-bottom: 39px;
+            border-radius: 10px;
+        }
+        
+        .header__link1 {
+            color: #F25822;
+            font-size: 14px;
+        }
+        
+        .header__link2 {
+            color: #000000;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .top-content {
+            margin-top: 84px;
+            margin-bottom: 162px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 39px;
+        }
+        
+        .top-content-text {
+            width: 522px;
+        }
+        
+        .title {
+            margin-bottom: 17px;
+            font-size: 60px;
+            line-height: 70px;
+            color: #000000;
+        }
+        
+        .text {
+            font-size: 20px;
+            line-height: 23px;
+            color: #888888;
+        }
+        
+        .top-button {
+            margin-top: 37px;
+            display: flex;
+            align-items: center;
+            gap: 72px;
+        }
+        
+        .button-video {
+            font-size: 15px;
+            line-height: 18px;
+            color: #AAAAAA;
+        }
+        
+        .button-video:hover {
+            color: #F25822;
+        }
+        
+        .button {
+            width: 140px;
+            height: 50px;
+            background: #F25822;
+            box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+            border-radius: 50px;
+            border: none;
+            font-size: 15px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+        
+        .button:hover {
+            background: #f59775;
+        }
+        
+        .blok-logos {
+            padding-top: 97px;
+            padding-bottom: 96px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 48px;
+            flex-shrink: 0;
+            background: #FFF;
+        }
